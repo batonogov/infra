@@ -1,0 +1,6 @@
+---
+- name: Upgrade Packages
+  hosts:
+    - infrastructure
+  roles:
+    - upgrade_packages

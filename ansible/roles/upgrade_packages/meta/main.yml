@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Fedor Batonogov
+  description: Ansible role for update all packages to their latest version
+  company: Fedor Batonogov
+
+  license: MIT
+
+  min_ansible_version: '2.15'
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - debian
